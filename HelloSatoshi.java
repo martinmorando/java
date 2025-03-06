@@ -1,7 +1,10 @@
 /*
-- Statements require a semicolon but classes don't
+- Statements require a semicolon (;) but classes don't
+- File name must match the class name
+- The main method is a must
+
 - Compile: `javac HelloSatoshi.java`
-- Run: `java HelloSatoshi`
+- Run: 	   `java HelloSatoshi` (despite ending in .class)
 */
 
 public class HelloSatoshi {
