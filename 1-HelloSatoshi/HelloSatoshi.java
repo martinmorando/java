@@ -2,11 +2,7 @@
 - Statements require a semicolon (;) but classes don't
 - File name must match the class name
 - The main method is a must
-
-- Compile: `javac HelloSatoshi.java`
-- Run: 	   `java HelloSatoshi` (despite ending in .class)
 */
-
 public class HelloSatoshi {
 	public static void main(String[] args) {
 		System.out.println("Hello, Satoshi Nakamoto!"); // Prints and adds a new line
