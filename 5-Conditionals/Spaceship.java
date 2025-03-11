@@ -47,8 +47,14 @@ public class Spaceship {
 			System.out.println(pilotName + " is not part of the company.");
 		}
 
-		// This is also valid in Java, no {}
+		/*
+		// THIS IS WRONG but compiler will compile without errors!
 		if (pilotName == "Neo")
+			System.out.println("You found an easter egg!");
+		*/
+
+		// This is CORRECT. Also, notice the missing {}
+		if (pilotName.equals("Neo"))
 			System.out.println("You found an easter egg!");
 
 		// Ternary operator
