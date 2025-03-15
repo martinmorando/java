@@ -1,7 +1,9 @@
 /*
-    Arrays are 0-indexed in Java
+    Arrays
+    - Arrays are 0-indexed in Java
     - Size (number of items) can't be changed
 */
+
 import java.util.Arrays;
 
 public class Hotel {
