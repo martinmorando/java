@@ -3,6 +3,7 @@
     - dynamic size (its size can be changed)
 */
 
+import java.util.Arrays;
 import java.util.ArrayList;
 
 public class Plane {
@@ -55,6 +56,12 @@ public class Plane {
         stuff.add(5);
         stuff.add(true);
         */
+
+        // Create an ArrayList and add several items at once
+        ArrayList<String> moreLetters = new ArrayList<>(Arrays.asList("D", "E", "F", "G"));
+
+        // Add moreLetters to letters
+        letters.addAll(moreLetters);    // [AAA, D, E, F, G]
 
     }
 
