@@ -2,7 +2,7 @@
     Inheritance/Car
 */
 
-// An object Car is a member of the Vehicle class
+// The Car class is a subclass of the Vehicle class
 public class Car extends Vehicle {
 
     public Car() {
