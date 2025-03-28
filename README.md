@@ -1,4 +1,4 @@
-# Learning Java
+# Notes, Code, and Experiments with Java
 
 
 ## Motivations for Learning Java
